@@ -1,0 +1,61 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="todo:war exploded">
+    <output-path>$PROJECT_DIR$/target/todo-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>todo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="todo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-core:1.10.0" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-lang:1.10.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.36" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-cache:1.10.0" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-crypto-hash:1.10.0" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-crypto-core:1.10.0" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-crypto-cipher:1.10.0" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-config-core:1.10.0" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-config-ogdl:1.10.0" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.4" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-event:1.10.0" />
+          <element id="library" level="project" name="Maven: io.jsonwebtoken:jjwt:0.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.9" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.9" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.test:arquillian-test-api:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.core:arquillian-core-api:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.test:arquillian-test-spi:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.core:arquillian-core-spi:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.container:arquillian-container-test-api:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.shrinkwrap:shrinkwrap-api:1.2.6" />
+          <element id="library" level="project" name="Maven: org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:2.0.0" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.container:arquillian-container-test-spi:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.config:arquillian-config-api:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.config:arquillian-config-impl-base:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.config:arquillian-config-spi:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:2.0.0" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.container:arquillian-container-test-impl-base:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: fish.payara.arquillian:arquillian-payara-server-4-embedded:1.0.Beta3" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.container:arquillian-container-spi:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.protocol:arquillian-protocol-servlet:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-cdi:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-ejb:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-resource:1.4.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-initialcontext:1.4.1.Final" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/todo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="todo/web/Web" />
+    </root>
+  </artifact>
+</component>
